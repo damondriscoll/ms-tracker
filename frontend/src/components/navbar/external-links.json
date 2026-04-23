@@ -1,7 +1,7 @@
 [
   {
     "name": "Patch Notes",
-    "url": "https://www.nexon.com/maplestory/news/update/36809"
+    "url": "https://www.nexon.com/maplestory/news/update/39235"
   },
   {
     "name": "Official News",
@@ -11,6 +11,10 @@
     "name": "Old Patch Notes",
     "isOpenByDefault": false,
     "links": [
+      {
+        "name": "v267 - MapleStory x One-Punch Man",
+        "url": "https://www.nexon.com/maplestory/news/update/36809"
+      },      
       {
         "name": "v266 - The Sengoku Warrior Reawakening",
         "url": "https://www.nexon.com/maplestory/news/update/35483"

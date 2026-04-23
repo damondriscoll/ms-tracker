@@ -2092,6 +2092,99 @@ const EVENT_2026_03_ONE_PUNCH_MAN: Task[] = [
   }
 ]
 
+const EVENT_2026_04_MAPLE_UNIVERSITY: Task[] = [
+  {
+    taskId: '2026-4-Campus-Life-Gen-Ed-1k-Mobs',
+    name: 'Campus Life: Gen Ed 1k Mobs',
+    maxClearCount: 1,
+    resetType: 'Daily',
+    taskType: 'Event',
+    isPerAccount: true,
+    startDate: new Date('2026-04-23T00:00:00Z'),
+    endDate: new Date('2026-06-16T23:59:59Z')
+  },
+  {
+    taskId: '2026-4-Campus-Life-Major-10k-Mobs',
+    name: 'Campus Life: Major 10k Mobs',
+    maxClearCount: 1,
+    resetType: 'Daily',
+    taskType: 'Event',
+    isPerAccount: true,
+    startDate: new Date('2026-04-23T00:00:00Z'),
+    endDate: new Date('2026-06-16T23:59:59Z')
+  },
+  {
+    taskId: '2026-4-Campus-Life-Internship-15-Credits',
+    name: 'Campus Life: Internship 15 Boss Credits',
+    maxClearCount: 1,
+    resetType: 'Weekly_Wednesday',
+    taskType: 'Event',
+    isPerAccount: true,
+    startDate: new Date('2026-04-23T00:00:00Z'),
+    endDate: new Date('2026-06-16T23:59:59Z')
+  },
+  {
+    taskId: '2026-4-Rowdy-Campus-Life-Glorious-Graduation',
+    name: 'Maple University: 30 Mobbing Procs',
+    maxClearCount: 1,
+    resetType: 'Daily',
+    taskType: 'Event',
+    isPerAccount: true,
+    startDate: new Date('2026-04-23T00:00:00Z'),
+    endDate: new Date('2026-06-16T23:59:59Z')
+  },
+  {
+    taskId: '2026-4-Club-Fair-1000-Points',
+    name: 'Club Fair: 1k Mini-Game Points',
+    maxClearCount: 1,
+    resetType: 'Weekly_Wednesday',
+    taskType: 'Event',
+    isPerAccount: true,
+    startDate: new Date('2026-04-23T00:00:00Z'),
+    endDate: new Date('2026-06-16T23:59:59Z')
+  },
+  {
+    taskId: '2026-4-Punch-King',
+    name: 'Punch King',
+    maxClearCount: 1,
+    resetType: 'Weekly_Wednesday',
+    taskType: 'Event',
+    isPerAccount: true,
+    startDate: new Date('2026-04-23T00:00:00Z'),
+    endDate: new Date('2026-05-19T23:59:59Z')
+  },
+  {
+    taskId: '2026-4-Summer-Countdown',
+    name: 'Summer Countdown: Participate',
+    maxClearCount: 1,
+    resetType: 'Daily',
+    taskType: 'Event',
+    isPerAccount: true,
+    startDate: new Date('2026-05-20T00:00:00Z'),
+    endDate: new Date('2026-06-16T23:59:59Z')
+  },
+  {
+    taskId: '2026-4-Maple-University-Mystic-Frontier',
+    name: 'Maple University Mystic Frontier 3 Explorations',
+    maxClearCount: 1,
+    resetType: 'Weekly_Wednesday',
+    taskType: 'Event',
+    isPerAccount: true,
+    startDate: new Date('2026-05-20T00:00:00Z'),
+    endDate: new Date('2026-06-16T23:59:59Z')
+  },
+  {
+    taskId: '2026-4-Monster-Election-5-Light-Sticks-Support',
+    name: 'Monster Election: 5 Light Sticks Support',
+    maxClearCount: 1,
+    resetType: 'Weekly_Wednesday',
+    taskType: 'Event',
+    isPerAccount: true,
+    startDate: new Date('2026-05-20T00:00:00Z'),
+    endDate: new Date('2026-06-16T23:59:59Z')
+  }
+]
+
 const EVENT_TASKS: GroupedTasks = {
   name: 'Event',
   tasks: [
@@ -2121,7 +2214,8 @@ const EVENT_TASKS: GroupedTasks = {
     EVENT_2025_11_ASSEMBLE,
     EVENT_2025_11_ASSEMBLE_PART2,
     EVENT_2026_02_THE_SENGOKU_WARRIOR_REAWAKENING,
-    EVENT_2026_03_ONE_PUNCH_MAN
+    EVENT_2026_03_ONE_PUNCH_MAN,
+    EVENT_2026_04_MAPLE_UNIVERSITY
   ]
     .flat()
 }
