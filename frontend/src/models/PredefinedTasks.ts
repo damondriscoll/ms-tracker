@@ -2170,7 +2170,7 @@ const EVENT_2026_04_MAPLE_UNIVERSITY: Task[] = [
     resetType: 'Weekly_Wednesday',
     taskType: 'Event',
     isPerAccount: true,
-    startDate: new Date('2026-05-20T00:00:00Z'),
+    startDate: new Date('2026-04-22T00:00:00Z'),
     endDate: new Date('2026-06-16T23:59:59Z')
   },
   {
@@ -2180,8 +2180,18 @@ const EVENT_2026_04_MAPLE_UNIVERSITY: Task[] = [
     resetType: 'Weekly_Wednesday',
     taskType: 'Event',
     isPerAccount: true,
-    startDate: new Date('2026-05-20T00:00:00Z'),
+    startDate: new Date('2026-04-22T00:00:00Z'),
     endDate: new Date('2026-06-16T23:59:59Z')
+  },
+  {
+    taskId: '2026-4-Goddess-Blessing-Pass-Season-2',
+    name: 'Goddess\'s Blessing Pass: 5 Hours Playtime',
+    maxClearCount: 1,
+    resetType: 'Daily',
+    taskType: 'Event',
+    isPerAccount: true,
+    startDate: new Date('2026-04-22T00:00:00Z'),
+    endDate: new Date('2026-05-19T23:59:59Z')
   }
 ]
 
