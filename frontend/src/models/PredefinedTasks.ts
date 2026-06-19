@@ -110,6 +110,10 @@ const WEEKLY_BOSSES: GroupedTasks = {
       {
         taskId: 'boss-weekly-firstadversary',
         name: 'First Adversary'
+      },
+      {
+        taskId: 'boss-weekly-maleficstar',
+        name: 'Malefic Star'
       }
 
     ].map((t) => {
@@ -2195,6 +2199,89 @@ const EVENT_2026_04_MAPLE_UNIVERSITY: Task[] = [
   }
 ]
 
+const EVENT_2026_06_RIDE_THE_LIGHTNING: Task[] = [
+  {
+    taskId: '2026-6-Operation-Dive-Weekly-Missions',
+    name: 'Operation: Dive Weekly Missions',
+    maxClearCount: 1,
+    resetType: 'Weekly_Thursday',
+    taskType: 'Event',
+    isPerAccount: true,
+    startDate: new Date('2026-06-17T00:00:00Z'),
+    endDate: new Date('2026-09-08T23:59:59Z')
+  },
+  {
+    taskId: '2026-6-Raising-Ellanos-Research-Mission',
+    name: 'Raising Ellanos Research Mission',
+    maxClearCount: 1,
+    resetType: 'Weekly_Thursday',
+    taskType: 'Event',
+    isPerAccount: true,
+    startDate: new Date('2026-06-17T00:00:00Z'),
+    endDate: new Date('2026-09-08T23:59:59Z')
+  },
+  {
+    taskId: '2026-6-Tallahart-Fantasia-Daily-Collection',
+    name: 'Tallahart Fantasia Daily Collection',
+    maxClearCount: 1,
+    resetType: 'Daily',
+    taskType: 'Event',
+    isPerAccount: true,
+    startDate: new Date('2026-06-17T00:00:00Z'),
+    endDate: new Date('2026-09-08T23:59:59Z')
+  },
+  {
+    taskId: '2026-6-Phantasmal-Echoes-Bosses',
+    name: 'Phantasmal Echoes Bosses',
+    maxClearCount: 1,
+    resetType: 'Weekly_Thursday',
+    taskType: 'Event',
+    isPerAccount: true,
+    startDate: new Date('2026-06-17T00:00:00Z'),
+    endDate: new Date('2026-09-08T23:59:59Z')
+  },
+  {
+    taskId: '2026-6-Luxe-Sauna',
+    name: 'Luxe Sauna',
+    maxClearCount: 1,
+    resetType: 'Weekly_Wednesday',
+    taskType: 'Event',
+    isPerAccount: true,
+    startDate: new Date('2026-06-17T00:00:00Z'),
+    endDate: new Date('2026-09-08T23:59:59Z')
+  },
+  {
+    taskId: '2026-6-Momentum-Pass-Weekly-Missions',
+    name: 'Momentum Pass Weekly Missions',
+    maxClearCount: 1,
+    resetType: 'Weekly_Wednesday',
+    taskType: 'Event',
+    isPerAccount: true,
+    startDate: new Date('2026-07-01T00:00:00Z'),
+    endDate: new Date('2026-09-08T23:59:59Z')
+  },
+  {
+    taskId: '2026-6-Burning-Express-Check-In',
+    name: 'Burning Express 1k Mobs Check-in',
+    maxClearCount: 1,
+    resetType: 'Daily',
+    taskType: 'Event',
+    isPerAccount: true,
+    startDate: new Date('2026-07-08T00:00:00Z'),
+    endDate: new Date('2026-08-04T23:59:59Z')
+  },
+  {
+    taskId: '2026-6-Chroma-Essence',
+    name: 'Chroma Essence',
+    maxClearCount: 1,
+    resetType: 'Weekly_Thursday',
+    taskType: 'Event',
+    isPerAccount: true,
+    startDate: new Date('2026-07-09T00:00:00Z'),
+    endDate: new Date('2026-07-22T23:59:59Z')
+  }
+]
+
 const EVENT_TASKS: GroupedTasks = {
   name: 'Event',
   tasks: [
@@ -2225,7 +2312,8 @@ const EVENT_TASKS: GroupedTasks = {
     EVENT_2025_11_ASSEMBLE_PART2,
     EVENT_2026_02_THE_SENGOKU_WARRIOR_REAWAKENING,
     EVENT_2026_03_ONE_PUNCH_MAN,
-    EVENT_2026_04_MAPLE_UNIVERSITY
+    EVENT_2026_04_MAPLE_UNIVERSITY,
+    EVENT_2026_06_RIDE_THE_LIGHTNING
   ]
     .flat()
 }
