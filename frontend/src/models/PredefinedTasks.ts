@@ -2279,6 +2279,26 @@ const EVENT_2026_06_RIDE_THE_LIGHTNING: Task[] = [
     isPerAccount: true,
     startDate: new Date('2026-07-09T00:00:00Z'),
     endDate: new Date('2026-07-22T23:59:59Z')
+  },
+  {
+    taskId: '2026-6-Buy-30-Sealing-Wands',
+    name: 'Buy 30 Sealing Wands',
+    maxClearCount: 1,
+    resetType: 'Weekly_Wednesday',
+    taskType: 'Event',
+    isPerAccount: false,
+    startDate: new Date('2026-06-17T00:00:00Z'),
+    endDate: new Date('2026-09-08T23:59:59Z')
+  },
+  {
+    taskId: '2026-6-Challenger-Pass-Weekly-Missions',
+    name: 'Challenger Pass Weekly Missions',
+    maxClearCount: 1,
+    resetType: 'Weekly_Wednesday',
+    taskType: 'Event',
+    isPerAccount: false,
+    startDate: new Date('2026-06-17T00:00:00Z'),
+    endDate: new Date('2026-09-08T23:59:59Z')
   }
 ]
 
